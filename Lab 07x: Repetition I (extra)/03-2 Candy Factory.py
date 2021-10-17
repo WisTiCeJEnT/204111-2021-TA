@@ -1,0 +1,1 @@
+print('\n'.join([f'In {i} hour(s), my factory produces {180*i} candies, and I make profit of {i*72:.2f} Baht.' for i in range(1, int(input('Enter numbers of hours: '))+1)]))
