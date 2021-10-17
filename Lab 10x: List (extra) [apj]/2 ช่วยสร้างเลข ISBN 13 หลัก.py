@@ -1,0 +1,2 @@
+inp = [int(input(f'Please enter x{i+1}:')) for i in range(12)]
+print(f'Your ISBN-13 is', ''.join([str(x) for x in inp]) + str(10 - sum([int(inp[i]) * 3 if i%2 else int(inp[i]) for i in range(12)]) % 10))
