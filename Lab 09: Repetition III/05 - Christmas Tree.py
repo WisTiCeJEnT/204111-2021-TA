@@ -1,0 +1,1 @@
+print((lambda n, h : '\n'.join(['\n'.join([(h-i-1)*' '+(i*2+1)*'*' for i in range(h)]) for i in range(n)]))(int(input('Enter number of levels: ')), int(input('What is the bush size? '))) )
